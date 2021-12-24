@@ -35,3 +35,12 @@ sudo systemctl status jenkins
 # Post-installation
 1. Browse to http://localhost:8080
 2. From the Jenkins console log output, copy the automatically-generated alphanumeric password (between the 2 sets of asterisks).
+
+or 
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword will print the password at console.
+```
+
+# Creating the first administrator user
+When the Create First Admin User page appears, specify the details for your administrator user in the respective fields and click Save and Finish.
+
