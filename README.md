@@ -44,3 +44,10 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword will print the password a
 # Creating the first administrator user
 When the Create First Admin User page appears, specify the details for your administrator user in the respective fields and click Save and Finish.
 
+# Adding a slave machine
+1. Create another ec2 instance.
+2. Create another user(jenkins) on the ec2 machine. 
+```
+sudo su - 
+useradd -G sudo jenkins 
+```
