@@ -49,5 +49,5 @@ When the Create First Admin User page appears, specify the details for your admi
 2. Create another user(jenkins) on the ec2 machine. 
 ```
 sudo su - 
-useradd -G sudo jenkins 
+useradd -G sudo -m jenkins 
 ```
